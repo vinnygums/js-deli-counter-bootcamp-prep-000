@@ -26,6 +26,9 @@ function currentLine(katzDeliLine) {
   return `The line is currently:${positionsAndNames}`
   }
 
+function takeANumber(katzDeliLine, newPerson) {
+  katzDeliLine.push(newPerson)
+}
 
 
 
